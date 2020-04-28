@@ -1,0 +1,97 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+
+    <!-- Google Font Integration -->
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@700&display=swap" rel="stylesheet">
+
+    <!-- Main CSS File -->
+    <link rel="stylesheet" href="css/style.css">
+
+    <title>Simple Drum Kit with Vanilla JS</title>
+  </head>
+  <body>
+    <section class="main">
+      <div class="container-fluid">
+        <div class="row align-items-center">
+
+          <div class="col-md-12">
+            <h1 class="my-5 py-5 text-center text-light bg-danger display-5">Simple Drum Kit with Vanilla JS</h1>
+
+            <div class="list-unstyled drum-keys py-5">
+              <div data-key="65" class="key">
+                <h1>a</h1>
+                <p>Clap</p>
+              </div>
+
+              <div data-key="83" class="key">
+                <h1>s</h1>
+                <p>Hihat</p>
+              </div>
+
+              <div data-key="68" class="key">
+                <h1>d</h1>
+                <p>Kick</p> 
+              </div>
+            
+              <div data-key="70" class="key">
+                <h1>f</h1>
+                <p>Openhat</p>
+              </div>
+
+              <div data-key="71" class="key">
+                <h1>g</h1>
+                <p>Boom</p>
+              </div>
+
+              <div data-key="72" class="key">
+                <h1>h</h1>
+                <p>Ride</p>
+              </div>
+            
+              <div data-key="74" class="key">
+                <h1>j</h1>
+                <p>Snare</p>
+              </div>
+
+              <div data-key="75" class="key">
+                <h1>k</h1>
+                <p>Tom</p>
+              </div>
+
+              <div data-key="76" class="key">
+                <h1>l</h1>
+                <p>Tink</p>
+              </div>
+
+            </div>
+        </div>
+      </div>
+    </section>
+
+    <audio data-key="65" src="audio/clap.wav"></audio>
+    <audio data-key="83" src="audio/hihat.wav"></audio>
+    <audio data-key="68" src="audio/kick.wav"></audio>
+    <audio data-key="70" src="audio/openhat.wav"></audio>
+    <audio data-key="71" src="audio/boom.wav"></audio>
+    <audio data-key="72" src="audio/ride.wav"></audio>
+    <audio data-key="74" src="audio/snare.wav"></audio>
+    <audio data-key="75" src="audio/tom.wav"></audio>
+    <audio data-key="76" src="audio/tink.wav"></audio>
+    
+
+    <!-- Optional JavaScript -->
+    <!-- jQuery first, then Popper.js, then Bootstrap JS -->
+    <script src="https://code.jquery.com/jquery-3.4.1.slim.min.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/js/bootstrap.min.js"></script>
+
+    <script src="js/app.js"></script>
+  </body>
+</html>
